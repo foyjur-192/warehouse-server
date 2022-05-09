@@ -313,7 +313,7 @@ app.get('/tableItem', async(req, res) => {
 
 
 
-//Add data
+//Add data to database
 app.post("/tableInventory", async(req, res) => {
 const inventory = req.body;
 if(!inventory.name || !inventory.price){
