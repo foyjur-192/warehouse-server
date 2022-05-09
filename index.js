@@ -292,7 +292,7 @@ res.send(result);
 
 
 
-//Office Table Inventory
+//Office Table Inventories
 const furnitureOfficeTable = client.db('furnitureOfficeTable').collection('officeInventory');
 app.get('/tableInventory', async(req, res) => {
     const query = {};
